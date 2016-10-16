@@ -8,7 +8,6 @@ https://docs.python.org/2/library/xml.etree.elementtree.html
 import xml.etree.ElementTree as ET
 
 class Scene:
-    'Common base class for all employees'
     name = ''
 
     def __init__(self, name):
