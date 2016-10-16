@@ -1,0 +1,57 @@
+<deviceMaps>
+	<device name="REL" channel="1">
+		<map name="CLEAN">
+			<midi change="PC" data="1"/>
+		</map>
+		<map name="LEAD">
+			<midi change="PC" data="2"/>
+		</map>
+		<map name="RHYTHM">
+			<midi change="PC" data="3"/>
+		</map>
+	</device>
+	<device name="M9" channel="2">
+		<map name="1A">
+			<midi change="CC" data="11">
+				<on>127</on>
+				<off>0</off>
+			</midi>
+		</map>
+		<map name="1B">
+			<midi change="CC" data="12">
+				<on>127</on>
+				<off>0</off>
+			</midi>
+		</map>
+		<map name="2A">
+			<midi change="CC" data="14">
+				<on>127</on>
+				<off>0</off>
+			</midi>
+		</map>
+		<map name="2B">
+			<midi change="CC" data="15">
+				<on>127</on>
+				<off>0</off>
+			</midi>
+		</map>
+		<map name="3A">
+			<midi change="CC" data="17">
+				<on>127</on>
+				<off>0</off>
+			</midi>
+		</map>
+		<map name="3B">
+			<midi change="CC" data="18">
+				<on>127</on>
+				<off>0</off>
+			</midi>
+		</map>
+	</device>
+	<device name="H9" channel="3">
+		<map name="Dorian Minor 3rd">31</map>
+		<map name="Minor 5th">32</map>
+		<map name="Octave">33</map>
+		<map name="Major 5th">34</map>
+	</device>
+</deviceMaps>

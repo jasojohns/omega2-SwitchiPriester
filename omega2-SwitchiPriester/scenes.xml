@@ -1,0 +1,103 @@
+<scenes>
+	<scene name="Roll">
+		<program device="M9">0</program>
+		<button index="1">
+			<control device="REL">RHYTHM</control>
+		</button>
+		<button index="2">
+			<control device="REL">LEAD</control>
+			<control device="M9">3B</control>
+		</button>
+		<button index="3">
+			<control device="M9">1A</control>
+			<control device="M9">2A</control>
+			<control device="M9">3A</control>
+		</button>
+	</scene>
+	<scene name="Fool's Gold">
+		<program device="M9">1</program>
+		<button index="1">
+			<control device="REL">RHYTHM</control>
+		</button>
+		<button index="2">
+			<control device="H9" type="hold">Major 5th</control>
+		</button>
+		<button index="3">
+			<control device="REL">LEAD</control>
+			<control device="M9">3B</control>
+		</button>
+	</scene>
+	<scene name="Boney Marone">
+		<program device="M9">2</program>
+		<button index="1">
+			<control device="REL">RHYTHM</control>
+		</button>
+	</scene>
+	<scene name="Fallen Down">
+		<program device="M9">3</program>
+		<button index="1">
+			<control device="REL">RHYTHM</control>
+		</button>
+		<button index="2">
+			<control device="REL">LEAD</control>
+			<control device="M9">3B</control>
+			<control device="H9" type="hold_on_switch">Dorian m 3rd</control>
+		</button>
+		<button index="3">
+			<control device="H9" type="hold">Octave</control>
+		</button>
+	</scene>
+	<scene name="2nd To Last">
+		<program device="M9">4</program>
+		<button index="1">
+			<control device="REL">RHYTHM</control>
+		</button>
+	</scene>
+	<scene name="Out Of The Sky">
+		<program device="M9">5</program>
+		<button index="1">
+			<control device="REL">RHYTHM</control>
+		</button>
+		<button index="2">
+			<control device="REL">LEAD</control>
+			<control device="M9">3B</control>
+		</button>
+		<button index="3">
+			<control device="M9">2A</control>
+			<control device="M9">3A</control>
+		</button>
+	</scene>
+	<scene name="What">
+		<program device="M9">6</program>
+		<button index="1">
+			<control device="REL">RHYTHM</control>
+		</button>
+		<button index="2">
+			<control device="REL">CLEAN</control>
+			<control device="M9">1A</control>
+			<control device="M9">2A</control>
+			<control device="M9">3A</control>
+		</button>
+		<button index="3">
+			<control device="REL">CLEAN</control>
+			<control device="M9">1B</control>
+			<control device="M9">2B</control>
+			<control device="M9">3B</control>
+		</button>
+	</scene>
+	<scene name="Midnight">
+		<program device="M9">7</program>
+		<button index="1">
+			<control device="REL">RHYTHM</control>
+		</button>
+		<button index="2">
+			<control device="H9" type="hold">Dorian m 3rd</control>
+		</button>
+		<button index="3">
+			<control device="H9" type="hold">Minor 5th</control>
+		</button>
+		<button index="4">
+			<control device="H9" type="hold">Octave</control>
+		</button>
+	</scene>
+</scenes>
