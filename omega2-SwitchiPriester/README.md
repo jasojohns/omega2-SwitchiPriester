@@ -7,4 +7,5 @@ Python code for reading the pedal configuration data.
 
 Project Timeline:
 10/13/2016  - Initial Repository Created and code uploaded
+10/16/2016  - Reinitial files into repository... 11/2016
 11/2016     - Reciept of Onion Omega2 boards and other hardware from kickstarter 
